@@ -30,7 +30,7 @@ margin-left:20px;
 
 .hero{
 height:100vh;
-background:url('/images/wp5338934.jpg');
+background-image:url('/images/wp5338934.jpg');
 background-size:cover;
 background-position:center;
 display:flex;
