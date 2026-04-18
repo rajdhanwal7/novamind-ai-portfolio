@@ -1,0 +1,250 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 50px;
+background:#000;
+position:absolute;
+width:100%;
+z-index:10;
+}
+
+nav h2{
+color:white;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:100vh;
+background:url('/images/wp5338934.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.overlay{
+background:rgba(0,0,0,0.45);
+padding:50px;
+border-radius:20px;
+color:white;
+}
+
+.overlay h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.overlay p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+background:#2563eb;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.services{
+padding:80px 40px;
+text-align:center;
+}
+
+.services h2{
+font-size:42px;
+margin-bottom:50px;
+}
+
+.cards{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+width:320px;
+padding:40px;
+border-radius:20px;
+background:linear-gradient(135deg,#0f172a,#1d4ed8);
+color:white;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+font-size:28px;
+margin-bottom:20px;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.login-page{
+height:100vh;
+background:linear-gradient(135deg,#0f172a,#312e81);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.login-box{
+background:white;
+padding:50px;
+width:400px;
+border-radius:20px;
+text-align:center;
+}
+
+.login-box input{
+width:100%;
+padding:15px;
+margin:15px 0;
+}
+
+.login-box button{
+width:100%;
+padding:15px;
+background:#2563eb;
+color:white;
+border:none;
+}
+
+@media(max-width:768px){
+.overlay h1{font-size:40px;}
+.cards{flex-direction:column;align-items:center;}
+nav{flex-direction:column;text-align:center;}
+}
+.about-hero{
+background:linear-gradient(135deg,#0f172a,#1d4ed8);
+color:white;
+padding:180px 30px 100px;
+text-align:center;
+}
+
+.about-hero h1{
+font-size:54px;
+margin-bottom:25px;
+}
+
+.about-hero p{
+font-size:22px;
+max-width:900px;
+margin:auto;
+}
+
+.mission-section,
+.stats-section{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+padding:80px 30px;
+}
+
+.mission-box,
+.stat-box{
+background:white;
+padding:40px;
+width:350px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.tech-stack{
+padding:80px 30px;
+text-align:center;
+}
+
+.tech-stack h2{
+font-size:42px;
+margin-bottom:50px;
+}
+
+.stat-box h2{
+font-size:48px;
+color:#2563eb;
+}
+.contact-hero{
+background:linear-gradient(135deg,#0f172a,#2563eb);
+color:white;
+padding:180px 30px 100px;
+text-align:center;
+}
+
+.contact-hero h1{
+font-size:54px;
+margin-bottom:20px;
+}
+
+.contact-grid{
+display:flex;
+gap:50px;
+justify-content:center;
+flex-wrap:wrap;
+padding:80px 30px;
+}
+
+.contact-info,
+.contact-form-box{
+background:white;
+padding:50px;
+width:450px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.contact-form-box input,
+.contact-form-box textarea{
+width:100%;
+padding:15px;
+margin:15px 0;
+}
+
+.contact-form-box button{
+width:100%;
+padding:15px;
+background:#2563eb;
+color:white;
+border:none;
+}
+
+.consult-box{
+text-align:center;
+padding:80px 30px;
+background:#f4f7fb;
+}
+
+.consult-box h2{
+font-size:42px;
+margin-bottom:20px;
+}
